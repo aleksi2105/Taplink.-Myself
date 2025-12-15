@@ -1,3 +1,37 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  background: #f7f7f7;
+  padding: 15px;
+  font-family: "Inter", sans-serif;
+}
+
+.page-wrapper {
+  max-width: 375px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 8px 4px 35px 1px rgba(96, 85, 141, 0.25);
+}
+
+.header {
+  color: rgb(243, 196, 239);
+  padding: 40px 42px 145px;
+  background: url("../img/SWD_Blog_Banner_-_Repository_Pattern_Implementation.png")
+      no-repeat center / cover,
+    #efefef;
+  border-radius: 0 0 85px 85px;
+}
+
+.hello {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.hello-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
